@@ -13,3 +13,7 @@ id INTEGER PRIMARY KEY,
 name TEXT,
 age INTEGER
 );
+
+CREATE TABLE pledge (
+id INTEGER PRIMARY KEY,
+)
