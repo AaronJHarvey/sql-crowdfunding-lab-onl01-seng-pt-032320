@@ -14,6 +14,10 @@ name TEXT,
 age INTEGER
 );
 
-CREATE TABLE pledge (
+CREATE TABLE pledges (
 id INTEGER PRIMARY KEY,
+amount NUMERIC,
+user_id INTEGER,
+project_id INTEGER
 )
+;
